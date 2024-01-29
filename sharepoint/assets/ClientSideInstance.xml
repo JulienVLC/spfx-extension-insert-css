@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="InsertCustomCss"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="c74ad9b5-542d-478d-aab1-0ff8121cc850"
+        Properties="{&quot;urlCustomCss&quot;:&quot;/SiteAssets/MyCustomCss.css&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
