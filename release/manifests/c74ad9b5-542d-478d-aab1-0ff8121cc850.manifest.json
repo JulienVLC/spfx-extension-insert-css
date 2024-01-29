@@ -1,0 +1,35 @@
+{
+  "id": "c74ad9b5-542d-478d-aab1-0ff8121cc850",
+  "alias": "InsertCustomCssApplicationCustomizer",
+  "componentType": "Extension",
+  "extensionType": "ApplicationCustomizer",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "<!-- PATH TO CDN -->"
+    ],
+    "entryModuleId": "insert-custom-css-application-customizer",
+    "scriptResources": {
+      "insert-custom-css-application-customizer": {
+        "type": "path",
+        "path": "insert-custom-css-application-customizer_41e68dd020eb39314843.js"
+      },
+      "@microsoft/sp-application-base": {
+        "type": "component",
+        "id": "4df9bb86-ab0a-4aab-ab5f-48bf167048fb",
+        "version": "1.18.2"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b",
+        "version": "1.18.2"
+      },
+      "InsertCustomCssApplicationCustomizerStrings": {
+        "type": "path",
+        "path": "InsertCustomCssApplicationCustomizerStrings_en-us_ea2cd6cf496a2b884840b5a4699cd83c.js"
+      }
+    }
+  }
+}
