@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.18.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "spfx-extension-insert-css",
+    "libraryId": "47c9c910-9bd5-4884-bc44-4d95629a2fd5",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-extension-insert-css",
+    "solutionShortDescription": "spfx-extension-insert-css description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

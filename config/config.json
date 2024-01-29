@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "insert-custom-css-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/insertCustomCss/InsertCustomCssApplicationCustomizer.js",
+          "manifest": "./src/extensions/insertCustomCss/InsertCustomCssApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InsertCustomCssApplicationCustomizerStrings": "lib/extensions/insertCustomCss/loc/{locale}.js"
+  }
+}
